@@ -1,3 +1,44 @@
+body{
+    text-align: center;
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.shield{
+    position: relative;
+}
+
+.shield:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sword{
+    position: relative;
+}
+
+.sword:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
